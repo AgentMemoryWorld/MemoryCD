@@ -8,7 +8,9 @@ methods (long-context and RAG/BM25).
 
 ## Comparison with existing memory benchmarks
 
-![Comparison of memory benchmarks](assets/MemoryCD-Intro.png)
+<p align="center">
+  <img src="assets/MemoryCD-Intro.png" alt="Comparison of memory benchmarks" width="320">
+</p>
 
 **MemoryCD (ours)** captures cross-domain real-user activities over long time horizons.
 **LaMP** (Salemi et al., 2024) focuses only on short-term single-domain user behaviors.
