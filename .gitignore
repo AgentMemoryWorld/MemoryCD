@@ -1,0 +1,65 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+.Python
+pip-wheel-metadata/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Package / dependency managers ---
+uv.lock
+.python-version
+
+# --- Editors / OS ---
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Project data & artifacts ---
+# Raw / processed datasets (produced separately; not in repo)
+data/
+review/
+meta/
+meta_filtered/
+meta_full/
+amazon-review/
+*.jsonl
+*.jsonl.gz
+*.csv
+
+# Method caches (BM25 indexes, metadata pickles)
+cache/
+cache_metadata/
+cache_cross_domain/
+
+# Evaluation outputs
+logs/
+temp_eval_*/
+temp_eval_cross_domain_*/
+
+# --- Secrets ---
+.env
+.env.*
+*.key
+secrets.json
+
+# --- Misc ---
+*.log
+*.tmp

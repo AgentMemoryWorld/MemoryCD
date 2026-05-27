@@ -1,0 +1,24 @@
+[project]
+name = "memorycd"
+version = "0.2.0"
+description = "MemoryCD: Benchmarking Long-Context User Memory of LLM Agents for Lifelong Cross-Domain Personalization"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+dependencies = [
+    "openai>=1.0",
+    "rank-bm25>=0.2.2",
+    "rouge-score>=0.1.2",
+    "nltk>=3.9",
+    "bert-score>=0.3.13",
+]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["api", "eval_core", "evaluation_all_4task", "evaluation_all_4task_cross_domain"]
+
+[tool.setuptools.packages.find]
+include = ["methods*"]

@@ -1,0 +1,6 @@
+# MemoryCD core evaluation dependencies
+openai>=1.0
+rank-bm25>=0.2.2
+rouge-score>=0.1.2
+nltk>=3.9
+bert-score>=0.3.13
